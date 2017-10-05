@@ -1,0 +1,8 @@
+C:\Users\PLH\Documents\GitHub\contactsapp\so-thu-sai-gon-leanhthinh\Sở Thú Xì Gòn\Sở Thú Xì Gòn\bin\Debug\Sở Thú Xì Gòn.exe
+C:\Users\PLH\Documents\GitHub\contactsapp\so-thu-sai-gon-leanhthinh\Sở Thú Xì Gòn\Sở Thú Xì Gòn\bin\Debug\Sở Thú Xì Gòn.pdb
+C:\Users\PLH\Documents\GitHub\contactsapp\so-thu-sai-gon-leanhthinh\Sở Thú Xì Gòn\Sở Thú Xì Gòn\obj\x86\Debug\Sở_Thú_Xì_Gòn.Form1.resources
+C:\Users\PLH\Documents\GitHub\contactsapp\so-thu-sai-gon-leanhthinh\Sở Thú Xì Gòn\Sở Thú Xì Gòn\obj\x86\Debug\Sở_Thú_Xì_Gòn.Properties.Resources.resources
+C:\Users\PLH\Documents\GitHub\contactsapp\so-thu-sai-gon-leanhthinh\Sở Thú Xì Gòn\Sở Thú Xì Gòn\obj\x86\Debug\Sở Thú Xì Gòn.csproj.GenerateResource.Cache
+C:\Users\PLH\Documents\GitHub\contactsapp\so-thu-sai-gon-leanhthinh\Sở Thú Xì Gòn\Sở Thú Xì Gòn\obj\x86\Debug\Sở Thú Xì Gòn.exe
+C:\Users\PLH\Documents\GitHub\contactsapp\so-thu-sai-gon-leanhthinh\Sở Thú Xì Gòn\Sở Thú Xì Gòn\obj\x86\Debug\Sở Thú Xì Gòn.pdb
+C:\Users\PLH\Documents\GitHub\contactsapp\so-thu-sai-gon-leanhthinh\Sở Thú Xì Gòn\Sở Thú Xì Gòn\obj\x86\Debug\Sở Thú Xì Gòn.csprojResolveAssemblyReference.cache
