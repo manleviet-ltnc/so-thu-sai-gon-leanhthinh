@@ -38,6 +38,7 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblTime = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.hồSơToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuLoad = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,7 +49,6 @@
             this.mnuCoppy = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCut = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuPaste = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblTime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -82,6 +82,7 @@
             this.lstThuMoi.TabIndex = 2;
             this.toolTip1.SetToolTip(this.lstThuMoi, "Ấn chuột và kéo sang Danh sách thú để tạo Sở thú ");
             this.lstThuMoi.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.lstThuMoi.DragDrop += new System.Windows.Forms.DragEventHandler(this.lstDanhSach_DragDrop);
             this.lstThuMoi.DragEnter += new System.Windows.Forms.DragEventHandler(this.ListBox_DragEnter);
             this.lstThuMoi.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListBox_MouseDown);
             // 
@@ -137,6 +138,16 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(387, 357);
             this.tableLayoutPanel1.TabIndex = 6;
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.tableLayoutPanel1.SetColumnSpan(this.lblTime, 2);
+            this.lblTime.Location = new System.Drawing.Point(3, 270);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(97, 13);
+            this.lblTime.TabIndex = 6;
+            this.lblTime.Text = "Bây giờ là... ngày...";
             // 
             // menuStrip1
             // 
@@ -218,16 +229,6 @@
             this.mnuPaste.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
             this.mnuPaste.Size = new System.Drawing.Size(136, 22);
             this.mnuPaste.Text = "Dán";
-            // 
-            // lblTime
-            // 
-            this.lblTime.AutoSize = true;
-            this.tableLayoutPanel1.SetColumnSpan(this.lblTime, 2);
-            this.lblTime.Location = new System.Drawing.Point(3, 270);
-            this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(97, 13);
-            this.lblTime.TabIndex = 6;
-            this.lblTime.Text = "Bây giờ là... ngày...";
             // 
             // timer1
             // 

@@ -74,7 +74,7 @@ namespace Sở_Thú_Xì_Gòn
 
         private void mnuLoad_Click(object sender, EventArgs e)
         {
-            StreamReader reader = new StreamReader("thumoi.txt")
+            StreamReader reader = new StreamReader("thumoi.txt");
             if (reader == null) return;
             String input = null;
             while ((input= reader.ReadLine()) !=null)
@@ -95,7 +95,7 @@ namespace Sở_Thú_Xì_Gòn
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            lblTime.Text = String.Format("Bây giờ là {0}:{1}:{2} ngày {3} tháng {5},
+            lblTime.Text = String.Format("Bây giờ là {0}:{1}:{2} ngày {3} tháng {4} năm {5}",
                                             DateTime.Now.Hour,
                                             DateTime.Now.Minute,
                                             DateTime.Now.Second,
