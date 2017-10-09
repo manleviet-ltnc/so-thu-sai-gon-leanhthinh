@@ -19,7 +19,7 @@ namespace Sở_Thú_Xì_Gòn
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+           
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -27,10 +27,7 @@ namespace Sở_Thú_Xì_Gòn
 
         }
 
-        private void btnChon_Click(object sender, EventArgs e)
-        {
-            lstDanhSach.Items.Add(lstThuMoi.SelectedItem);
-        }
+        
 
         private void ListBox_MouseDown(object sender, MouseEventArgs e)
         {
@@ -51,7 +48,11 @@ namespace Sở_Thú_Xì_Gòn
 
         private void lstDanhSach_DragDrop(object sender, DragEventArgs e)
         {
-
+            if (e.Data.GetDataPresent (DataFormats.Text))
+            {
+                ListBox lb = (ListBox)sender;
+                lb.Items.Add(e.Data.GetData(DataFormats.Text));
+            }
         }
 
         private void Save(object sender, EventArgs e)
