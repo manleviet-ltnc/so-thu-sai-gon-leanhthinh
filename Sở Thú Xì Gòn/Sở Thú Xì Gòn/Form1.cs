@@ -58,7 +58,7 @@ namespace Sở_Thú_Xì_Gòn
         private void Save(object sender, EventArgs e)
         {
             //Motaptin
-            StreamWriter write = new StreamWriter("danhsachthu.tnx");
+            StreamWriter write = new StreamWriter("danhsachthu.txt");
 
             if (write == null) return;
 
@@ -109,6 +109,9 @@ namespace Sở_Thú_Xì_Gòn
         {
             timer1.Enabled = true;
         }
-
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            lstDanhSach.Items.Remove(lstDanhSach.SelectedItem);
+        }
     }
 }
